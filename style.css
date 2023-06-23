@@ -117,9 +117,22 @@
   }
 }
 
+/* ex 11 */
+
 .ex-11-icon {
   font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation: half-rotation 2s linear 1;
+}
+
+@keyframes half-rotation {
+  50% {
+    transform: rotate(0.9turn);
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
