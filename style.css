@@ -84,6 +84,13 @@
   filter: sepia(0.8);
 }
 
+/* ? ex 8 */
+.ex-8-img:hover {
+  transition: 2s;
+  border-radius: 15px;
+  filter: sepia(0.7);
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
