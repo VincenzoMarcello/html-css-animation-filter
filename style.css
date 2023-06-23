@@ -105,9 +105,18 @@
   border-radius: 15px;
 }
 
+/* ex 10 */
 .ex-10-icon {
   font-size: 60px;
+  animation: rotation-loop 1s linear infinite;
 }
+
+@keyframes rotation-loop {
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
 .ex-11-icon {
   font-size: 60px;
 }
